@@ -1,0 +1,4 @@
+#!/usr/bin/env jruby
+
+require 'warbly'
+Warbly.new.run
