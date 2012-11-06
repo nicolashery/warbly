@@ -1,0 +1,12 @@
+name: warbly
+
+framework:
+  type: standalone
+  runtime: java
+
+command: java -jar warbly.jar
+
+ignores: [".git"]
+
+instances: 1
+mem: 512

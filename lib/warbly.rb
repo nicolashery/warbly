@@ -1,4 +1,4 @@
-require 'bundler/setup'
+require 'bundler/setup' # Necessary for Heroku buildpack
 require 'chronic'
 require 'java'
 
@@ -25,8 +25,4 @@ class Warbly
     end
   end
 
-end
-
-if __FILE__ == $0
-  Warbly.new.run
 end
